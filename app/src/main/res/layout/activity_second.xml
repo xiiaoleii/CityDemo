@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myscroll="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tangyangkai.myview.SecondActivity">
+
+
+    <TextView
+        android:id="@+id/year_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="出生年份  (年)"
+        android:textSize="20dp" />
+
+    <com.example.tangyangkai.myview.MyScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        myscroll:lineColor="@color/font_text"
+        myscroll:titleColor="@color/strong"
+        myscroll:titleSize="30dp">
+    </com.example.tangyangkai.myview.MyScrollView>
+
+</LinearLayout>

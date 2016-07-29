@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myQQ="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/divider"
+    android:orientation="vertical"
+    tools:context="com.example.tangyangkai.myview.FourActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.example.tangyangkai.myview.MyQQHealthView
+                android:id="@+id/myQQView"
+                android:layout_width="match_parent"
+                android:layout_height="530dp"
+                android:layout_margin="15dp"
+                myQQ:lineColor="@color/font_tips"
+                myQQ:titleColor="@color/textcolor"
+                myQQ:titleSize="50dp" />
+
+            <Button
+                android:id="@+id/set_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

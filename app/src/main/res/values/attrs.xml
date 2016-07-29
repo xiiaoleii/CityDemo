@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    //自定义属性名,定义公共属性
+    <attr name="titleSize" format="dimension"></attr>
+    <attr name="titleText" format="string"></attr>
+    <attr name="titleColor" format="color"></attr>
+    <attr name="outCircleColor" format="color"></attr>
+    <attr name="inCircleColor" format="color"></attr>
+    <attr name="lineColor" format="color"></attr>
+
+    //自定义控件的主题样式
+    <declare-styleable name="MySportView">
+        <attr name="titleSize"></attr>
+        <attr name="titleText"></attr>
+        <attr name="titleColor"></attr>
+        <attr name="outCircleColor"></attr>
+        <attr name="inCircleColor"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="MyScrollView">
+        <attr name="titleSize"></attr>
+        <attr name="titleColor"></attr>
+        <attr name="titleText"></attr>
+        <attr name="lineColor"></attr>
+    </declare-styleable>
+    <declare-styleable name="MyTestView">
+        <attr name="titleSize"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="MyQQHealthView">
+        <attr name="titleColor"></attr>
+        <attr name="lineColor"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="MyBesselView">
+        <attr name="titleColor"></attr>
+    </declare-styleable>
+
+
+</resources>
